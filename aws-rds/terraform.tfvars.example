@@ -1,0 +1,6 @@
+# Copy this file to terraform.tfvars and provide actual values.
+# terraform.tfvars is ignored by .gitignore to prevent secrets from being pushed.
+
+region      = "ap-south-1"
+db_username = "adminuser"
+db_password = "replace-with-a-secure-password-here"

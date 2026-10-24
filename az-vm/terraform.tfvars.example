@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and set your values.
+# Do not commit terraform.tfvars to git.
+
+subscription_id = "00000000-0000-0000-0000-000000000000"
+location        = "West India"
+admin_username  = "azureuser"
+admin_password  = "ReplaceWithStrongPassword123!"

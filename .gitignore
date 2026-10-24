@@ -1,0 +1,60 @@
+# Local .terraform directories
+**/.terraform/*
+.terraform/
+.terraform
+
+# State files and backups (contain plaintext secrets and credentials)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfstate.backup
+
+# Transient lock files
+.terraform.tfstate.lock.info
+*.tfstate.lock.info
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Sensitive variable definition files
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Plan files (can contain unencrypted sensitive attributes)
+*.tfplan
+*.plan
+
+# CLI configuration and override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Environment and secrets files
+.env
+.env.*
+*.env
+
+# SSH keys, TLS certificates, and credential downloads
+*.pem
+*.key
+*.pub
+*.pfx
+*.cer
+*.crt
+*accessKeys*.csv
+*credentials*.csv
+*.id_rsa
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

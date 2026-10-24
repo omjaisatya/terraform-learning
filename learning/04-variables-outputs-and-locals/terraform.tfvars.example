@@ -1,0 +1,20 @@
+# Copy this file to terraform.tfvars or staging.auto.tfvars for execution.
+# terraform.tfvars is ignored by .gitignore to prevent committing sensitive keys.
+
+project_name   = "cloud-platform"
+environment    = "dev"
+instance_count = 3
+
+allowed_cidr_blocks = [
+  "10.0.0.0/16",
+  "192.168.1.0/24"
+]
+
+cluster_config = {
+  version               = "1.28"
+  enable_auth           = true
+  storage_size          = 100
+  backup_retention_days = 14
+}
+
+secret_api_key = "example-token-do-not-commit-real-secrets"
